@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Formulario de registro</title>
+  </head>
+
+  <body class="container">
+    <div id="divForm">
+    <form id="formRegister" class="formulario" form="post">
+       
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" class="form-control" name="nombre" value="" placeholder="Nombre">
+          <span id="errorNombre"></span>
+        </div>
+            
+        <div class="form-group">
+          <label>Apellido</label>
+          <input type="text" class="form-control" name="apellido" value="" placeholder="Apellido">
+          <span id="errorApellido"></span>
+        </div>
+            
+        <div class="form-group">
+          <label>Edad</label>
+          <input type="number" class="form-control" name="edad" value="" placeholder="Edad">
+          <span id="errorEdad"></span>
+        </div>
+            
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" name="email" value="" placeholder="Email">
+          <span id="errorEmail"></span>
+        </div>
+         
+        <div class="form-group">
+          <label>Contraseña</label>
+          <input type="text" class="form-control" name="contraseña" value="" placeholder="Contraseña">
+          <span id="errorContraseña"></span>
+        </div>
+
+        <div class="form-group">
+          <label>Confirmar contraseña</label>
+          <input type="text" class="form-control" name="confirmarContraseña" value="" placeholder="Confirmar contraseña">
+          <span id="errorConfirmarContraseña"></span>
+        </div>
+
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ENVIAR</button>
+        
+        
+    </form>
+  </div>
+    <script src="validaciones.js" ></script>
+    </body>
+
+</html>
